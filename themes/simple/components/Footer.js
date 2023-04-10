@@ -14,6 +14,6 @@ export const Footer = (props) => {
   return <footer className="relative w-full bg-black px-6 border-t">
          <i className='fas fa-copyright' /> 2023 <span> {title} 
         <br/>
-        <span className='text-xs '>蜀ICP备2023006850号</span></span><br/>
+        <span className='text-xs '><a href="https://beian.miit.gov.cn">蜀ICP备2023006850号</a></span></span><br/>
     </footer>
 }
